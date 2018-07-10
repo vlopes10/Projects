@@ -1,0 +1,171 @@
+F:\Douglas\CRUD_Mercado\CRUD_Mercado\bin\Debug\CRUD_Mercado.exe
+F:\Douglas\CRUD_Mercado\CRUD_Mercado\bin\Debug\CRUD_Mercado.pdb
+F:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Form1.resources
+F:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Properties.Resources.resources
+F:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.exe
+F:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.pdb
+F:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Fornecedor.Cadastro.resources
+F:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Fornecedor.Pesquisa.resources
+F:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Funcionario.Cadastro.resources
+F:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Funcionario.Pesquisa.resources
+F:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Produto.Cadastro.resources
+F:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Produto.Pesquisa.resources
+F:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Vendas.Pesquisa.resources
+F:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Vendas.realizacao_venda.resources
+D:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.exe
+D:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.pdb
+E:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.exe
+E:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.pdb
+D:\Douglas\CRUD_Mercado\CRUD_Mercado\bin\Debug\CRUD_Mercado.exe
+D:\Douglas\CRUD_Mercado\CRUD_Mercado\bin\Debug\CRUD_Mercado.pdb
+D:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.csprojResolveAssemblyReference.cache
+D:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Form1.resources
+D:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Fornecedor.Cadastro.resources
+D:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Fornecedor.Pesquisa.resources
+D:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Funcionario.Cadastro.resources
+D:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Funcionario.Pesquisa.resources
+D:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Produto.Cadastro.resources
+D:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Produto.Pesquisa.resources
+D:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Properties.Resources.resources
+D:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Vendas.Pesquisa.resources
+D:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Vendas.realizacao_venda.resources
+D:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.csproj.GenerateResource.Cache
+F:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.csproj.GenerateResource.Cache
+K:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.exe
+K:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.pdb
+F:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.csprojResolveAssemblyReference.cache
+G:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.exe
+G:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.pdb
+G:\Douglas\CRUD_Mercado\CRUD_Mercado\bin\Debug\CRUD_Mercado.exe
+G:\Douglas\CRUD_Mercado\CRUD_Mercado\bin\Debug\CRUD_Mercado.pdb
+G:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.csprojResolveAssemblyReference.cache
+G:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Form1.resources
+G:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Fornecedor.Cadastro.resources
+G:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Fornecedor.Pesquisa.resources
+G:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Funcionario.Cadastro.resources
+G:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Funcionario.Pesquisa.resources
+G:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Produto.Cadastro.resources
+G:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Produto.Pesquisa.resources
+G:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Properties.Resources.resources
+G:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Vendas.Pesquisa.resources
+G:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Vendas.realizacao_venda.resources
+G:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.csproj.GenerateResource.Cache
+K:\Douglas\CRUD_Mercado\CRUD_Mercado\bin\Debug\CRUD_Mercado.exe
+K:\Douglas\CRUD_Mercado\CRUD_Mercado\bin\Debug\CRUD_Mercado.pdb
+K:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.csprojResolveAssemblyReference.cache
+K:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Form1.resources
+K:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Fornecedor.Cadastro.resources
+K:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Fornecedor.Pesquisa.resources
+K:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Funcionario.Cadastro.resources
+K:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Funcionario.Pesquisa.resources
+K:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Produto.Cadastro.resources
+K:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Produto.Pesquisa.resources
+K:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Properties.Resources.resources
+K:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Vendas.Pesquisa.resources
+K:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Vendas.realizacao_venda.resources
+K:\Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.csproj.GenerateResource.Cache
+F:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.exe
+F:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.pdb
+F:\ \Douglas\CRUD_Mercado\CRUD_Mercado\bin\Debug\CRUD_Mercado.exe
+F:\ \Douglas\CRUD_Mercado\CRUD_Mercado\bin\Debug\CRUD_Mercado.pdb
+F:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Form1.resources
+F:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Fornecedor.Cadastro.resources
+F:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Fornecedor.Pesquisa.resources
+F:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Funcionario.Cadastro.resources
+F:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Funcionario.Pesquisa.resources
+F:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Produto.Cadastro.resources
+F:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Produto.Pesquisa.resources
+F:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Properties.Resources.resources
+F:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Vendas.Pesquisa.resources
+F:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Vendas.realizacao_venda.resources
+E:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.exe
+E:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.pdb
+E:\ \Douglas\CRUD_Mercado\CRUD_Mercado\bin\Debug\CRUD_Mercado.exe
+E:\ \Douglas\CRUD_Mercado\CRUD_Mercado\bin\Debug\CRUD_Mercado.pdb
+E:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.csprojResolveAssemblyReference.cache
+E:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Form1.resources
+E:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Fornecedor.Cadastro.resources
+E:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Fornecedor.Pesquisa.resources
+E:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Funcionario.Cadastro.resources
+E:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Funcionario.Pesquisa.resources
+E:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Produto.Cadastro.resources
+E:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Produto.Pesquisa.resources
+E:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Properties.Resources.resources
+E:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Vendas.Pesquisa.resources
+E:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Vendas.realizacao_venda.resources
+E:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.csproj.GenerateResource.Cache
+G:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.exe
+G:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.pdb
+G:\ \Douglas\CRUD_Mercado\CRUD_Mercado\bin\Debug\CRUD_Mercado.exe
+G:\ \Douglas\CRUD_Mercado\CRUD_Mercado\bin\Debug\CRUD_Mercado.pdb
+G:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Form1.resources
+G:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Fornecedor.Cadastro.resources
+G:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Fornecedor.Pesquisa.resources
+G:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Funcionario.Cadastro.resources
+G:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Funcionario.Pesquisa.resources
+G:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Produto.Cadastro.resources
+G:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Produto.Pesquisa.resources
+G:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Properties.Resources.resources
+G:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Vendas.Pesquisa.resources
+G:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Vendas.realizacao_venda.resources
+G:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.csproj.GenerateResource.Cache
+F:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.csprojResolveAssemblyReference.cache
+D:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.exe
+D:\ \Douglas\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.pdb
+C:\Users\66873\Desktop\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.exe
+C:\Users\66873\Desktop\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.pdb
+D:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.exe
+D:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.pdb
+E:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.exe
+E:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.pdb
+E:\CRUD_Mercado\CRUD_Mercado\bin\Debug\CRUD_Mercado.exe
+E:\CRUD_Mercado\CRUD_Mercado\bin\Debug\CRUD_Mercado.pdb
+E:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.csprojResolveAssemblyReference.cache
+E:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Form1.resources
+E:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Fornecedor.Cadastro.resources
+E:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Fornecedor.Pesquisa.resources
+E:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Funcionario.Cadastro.resources
+E:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Funcionario.Pesquisa.resources
+E:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Produto.Cadastro.resources
+E:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Produto.Pesquisa.resources
+E:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Properties.Resources.resources
+E:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Vendas.Pesquisa.resources
+E:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Vendas.realizacao_venda.resources
+E:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.csproj.GenerateResource.Cache
+G:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.exe
+G:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.pdb
+G:\CRUD_Mercado\CRUD_Mercado\bin\Debug\CRUD_Mercado.exe
+G:\CRUD_Mercado\CRUD_Mercado\bin\Debug\CRUD_Mercado.pdb
+G:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.csprojResolveAssemblyReference.cache
+G:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Form1.resources
+G:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Fornecedor.Cadastro.resources
+G:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Fornecedor.Pesquisa.resources
+G:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Funcionario.Cadastro.resources
+G:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Funcionario.Pesquisa.resources
+G:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Produto.Cadastro.resources
+G:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Produto.Pesquisa.resources
+G:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Properties.Resources.resources
+G:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Vendas.Pesquisa.resources
+G:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Vendas.realizacao_venda.resources
+G:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.csproj.GenerateResource.Cache
+F:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.exe
+F:\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.pdb
+C:\Users\v_lop\Desktop\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.exe
+C:\Users\v_lop\Desktop\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.pdb
+C:\Users\v_lop\Desktop\CRUD_Mercado\CRUD_Mercado\bin\Debug\CRUD_Mercado.exe
+C:\Users\v_lop\Desktop\CRUD_Mercado\CRUD_Mercado\bin\Debug\CRUD_Mercado.pdb
+C:\Users\v_lop\Desktop\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.csprojResolveAssemblyReference.cache
+C:\Users\v_lop\Desktop\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Form1.resources
+C:\Users\v_lop\Desktop\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Fornecedor.Cadastro.resources
+C:\Users\v_lop\Desktop\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Fornecedor.Pesquisa.resources
+C:\Users\v_lop\Desktop\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Funcionario.Cadastro.resources
+C:\Users\v_lop\Desktop\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Funcionario.Pesquisa.resources
+C:\Users\v_lop\Desktop\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Produto.Cadastro.resources
+C:\Users\v_lop\Desktop\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Produto.Pesquisa.resources
+C:\Users\v_lop\Desktop\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Properties.Resources.resources
+C:\Users\v_lop\Desktop\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Vendas.Pesquisa.resources
+C:\Users\v_lop\Desktop\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.Vendas.realizacao_venda.resources
+C:\Users\v_lop\Desktop\CRUD_Mercado\CRUD_Mercado\obj\x86\Debug\CRUD_Mercado.csproj.GenerateResource.Cache

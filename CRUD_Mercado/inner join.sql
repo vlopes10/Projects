@@ -1,0 +1,2 @@
+select Douglas.PRODUTO.ID_PRODUTO,Douglas.PRODUTO.NOME,Douglas.PRODUTO.PRECO, Douglas.itensvenda.quantidade from Douglas.PRODUTO
+inner join Douglas.itensvenda on  Douglas.itensvenda.produto_cod= Douglas.PRODUTO.ID_PRODUTO where Douglas.itensvenda.vendas_id= Douglas.PRODUTO.ID_PRODUTO 
