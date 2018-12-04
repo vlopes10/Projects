@@ -1,0 +1,24 @@
+
+DOM - Document Object Model
+
+API para representar documentos em HTML, XHTML e XML,  através desta API , podemos 
+manipular qualquer informação do documento 
+
+JS = nome de variavel primeira letra minuscula, 
+nome de função primeira letra maiúscula
+
+Não possui classes, apenas objetos.
+
+Tipagem fraca, para declarar = var , devem começar por 
+uma letra ou $(frameworks) ou _ (privado)
+
+case-sensitive, camelCase
+
+Tipos de dados 
+
+
+VAR - dentro de var number estão presentes todos estes, basta colocar o nome 
+da variável, nomear, e atribuir o nome que deseja 
+Number: byte, short, int, long, float, double
+
+Conta com Math API 
