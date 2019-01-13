@@ -1,58 +1,44 @@
-<!DOCKTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   
-   
-   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
     <title>Page Title</title>
-
-</head>
-<body>
-    
+  </head>
+  <body>
     <script>
-        
-        // Tratando Array 
-        var frutas = ["Laranja", "Manga", "Melancia"];
-        console.log(frutas.length); // exibindo tamanho do carray 
-        frutas.push("Morango");
-        frutas.push("Maracuja");
-        frutas.pop(); // remove o último item do meu array 
-        frutas.shift(); // remove o primeiro item do array 
-        frutas.unshift("Goiaba ");
-        frutas.reverse();
-        frutas.sort();
-        
-        console.log(frutas.toString()); // À partir de agora array poderá ser tratada como String, após transformar em string , não é mais possível tratar como vetor 
-       
-    
+      // Tratando Array
+      var frutas = ["Laranja", "Manga", "Melancia"];
+      console.log(frutas.length); // exibindo tamanho do carray
+      frutas.push("Morango");
+      frutas.push("Maracuja");
+      frutas.pop(); // remove o último item do meu array
+      frutas.shift(); // remove o primeiro item do array
+      frutas.unshift("Goiaba ");
+      frutas.reverse();
+      frutas.sort();
 
+      console.log(frutas.toString()); // À partir de agora array poderá ser tratada como String, após transformar em string , não é mais possível tratar como vetor
 
+      // Tratando Objetos
+      var nome = "Hermes",
+        sobrenome = "Lopes",
+        idade = 21;
+      // essas variáveis serão salvas em um objeto
 
-        // Tratando Objetos 
-        var nome = "Hermes", sobrenome = "Lopes", idade = 21;
-        // essas variáveis serão salvas em um objeto 
-        
-        var pessoa = {
-            nome:"Hermes", 
-            sobrenome: "Lopes", 
-            idade: 21, 
-            andar: function(){
-                    alert("caminhando")
-                    
-                    
-                    
-                    }
-            
-            }; 
-        // objeto criado com propriedades e com funções , com métodos que podem executar ações 
-         console.log(pessoa.andar()); // acessando propriedade nome do objeto
+      var pessoa = {
+        nome: "Hermes",
+        sobrenome: "Lopes",
+        idade: 21,
+        andar: function() {
+          alert("caminhando");
+        }
+      };
+      // objeto criado com propriedades e com funções , com métodos que podem executar ações
+      console.log(pessoa.andar()); // acessando propriedade nome do objeto
 
-        // Funções ( em objetos ) = Métodos 
-    
+      // Funções ( em objetos ) = Métodos
     </script>
-
-
-</body>
+  </body>
 </html>
