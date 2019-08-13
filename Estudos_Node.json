@@ -1,0 +1,1001 @@
+[
+    {
+        "id": "193b421c.60992e",
+        "type": "tab",
+        "label": "E-Mail Sender ",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "826d4410.76e798",
+        "type": "tab",
+        "label": "Crawler Tweets",
+        "disabled": true,
+        "info": ""
+    },
+    {
+        "id": "6cc0ede4.470174",
+        "type": "tab",
+        "label": "ChatBot",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "c17ffd72.39663",
+        "type": "tab",
+        "label": "Projeto RS Mongo",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "88ba2402.978be8",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "84ef6f2d.2fd6d",
+        "type": "tab",
+        "label": "sender",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "f3371d2.79b1de",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "467682b7.ea733c",
+        "type": "twitter-credentials",
+        "z": "",
+        "screen_name": "__HermesL"
+    },
+    {
+        "id": "f446afba.e7c6e",
+        "type": "chatbot-telegram-node",
+        "z": "",
+        "botname": "hlopes_bot",
+        "usernames": "vlopes10",
+        "providerToken": "",
+        "polling": "1000",
+        "store": "",
+        "log": "",
+        "parseMode": "Markdown",
+        "debug": false
+    },
+    {
+        "id": "2ed1d969.f4b256",
+        "type": "mongodb2",
+        "z": "",
+        "uri": "http://127.0.0.1:27017/",
+        "name": "",
+        "options": "",
+        "parallelism": "-1"
+    },
+    {
+        "id": "6032d4ea.ee740c",
+        "type": "mongodb",
+        "z": "",
+        "hostname": "127.0.0.1",
+        "port": "27017",
+        "db": "",
+        "name": ""
+    },
+    {
+        "id": "4a118e00.739ab4",
+        "type": "mongodb",
+        "z": "",
+        "hostname": "127.0.0.1",
+        "port": "27017",
+        "db": "projetors",
+        "name": ""
+    },
+    {
+        "id": "6619fcd6.ec83b4",
+        "type": "MySQLdatabase",
+        "z": "88ba2402.978be8",
+        "host": "10.11.150.78",
+        "port": "3306",
+        "db": "RS",
+        "tz": ""
+    },
+    {
+        "id": "a9aefdfc.1c2d6",
+        "type": "MySQLdatabase",
+        "z": "",
+        "host": "10.11.150.78",
+        "port": "3306",
+        "db": "RS",
+        "tz": ""
+    },
+    {
+        "id": "4bfbf2b3.394e3c",
+        "type": "e-mail",
+        "z": "193b421c.60992e",
+        "server": "smtp.live.com",
+        "port": "587",
+        "secure": false,
+        "name": "mika.almeidasousa@hotmail.com",
+        "dname": "E-mail Hermes",
+        "x": 520,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "a3a41612.ed37a8",
+        "type": "inject",
+        "z": "193b421c.60992e",
+        "name": "",
+        "topic": "TESTE ENVIOS DE MSG NODE!",
+        "payload": "Oi, estou testando o envio de mensagens através do NODE ",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 170,
+        "y": 140,
+        "wires": [
+            [
+                "4bfbf2b3.394e3c",
+                "b0525334.91a4c"
+            ]
+        ]
+    },
+    {
+        "id": "b0525334.91a4c",
+        "type": "debug",
+        "z": "193b421c.60992e",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 510,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "755e5e2c.8586e",
+        "type": "inject",
+        "z": "826d4410.76e798",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 180,
+        "y": 80,
+        "wires": [
+            [
+                "3c2953a4.0619ec"
+            ]
+        ]
+    },
+    {
+        "id": "4e136d41.9a3354",
+        "type": "twitter in",
+        "z": "826d4410.76e798",
+        "twitter": "467682b7.ea733c",
+        "tags": "",
+        "user": "dm",
+        "name": "Twitter Hermes ",
+        "inputs": 0,
+        "x": 200,
+        "y": 240,
+        "wires": [
+            [
+                "a4371b18.fe7be8",
+                "3c2953a4.0619ec"
+            ]
+        ]
+    },
+    {
+        "id": "3c2953a4.0619ec",
+        "type": "debug",
+        "z": "826d4410.76e798",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 500,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "a4371b18.fe7be8",
+        "type": "file",
+        "z": "826d4410.76e798",
+        "name": "",
+        "filename": "C:\\Users\\hvsantos\\Desktop\\teste.txt",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "x": 640,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7cd6a23a.7b18fc",
+        "type": "chatbot-telegram-receive",
+        "z": "6cc0ede4.470174",
+        "bot": "f446afba.e7c6e",
+        "botProduction": "",
+        "x": 110,
+        "y": 100,
+        "wires": [
+            [
+                "4aebc1b.95d284",
+                "4aa6d6c4.08f5d8"
+            ]
+        ]
+    },
+    {
+        "id": "f5315dbe.9aebb",
+        "type": "chatbot-telegram-send",
+        "z": "6cc0ede4.470174",
+        "bot": "f446afba.e7c6e",
+        "botProduction": "",
+        "track": true,
+        "passThrough": false,
+        "outputs": 1,
+        "x": 730,
+        "y": 1160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dce93eb0.f42f8",
+        "type": "template",
+        "z": "6cc0ede4.470174",
+        "name": "",
+        "field": "payload.content",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Esta é minha msg: {{payload.content}} !\n\n",
+        "output": "str",
+        "x": 680,
+        "y": 1060,
+        "wires": [
+            [
+                "f5315dbe.9aebb"
+            ]
+        ]
+    },
+    {
+        "id": "4aebc1b.95d284",
+        "type": "debug",
+        "z": "6cc0ede4.470174",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 290,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "afa0ab21.c67a48",
+        "type": "chatbot-ask",
+        "z": "6cc0ede4.470174",
+        "name": "Menu",
+        "buttons": [
+            {
+                "type": "keyboardButton",
+                "label": "Localização"
+            },
+            {
+                "type": "keyboardButton",
+                "label": "Telefone"
+            },
+            {
+                "type": "keyboardButton",
+                "label": "Me cumprimente!"
+            },
+            {
+                "type": "keyboardButton",
+                "label": "E-mail"
+            },
+            {
+                "type": "keyboardButton",
+                "label": "QR Code"
+            }
+        ],
+        "message": "Olá {{firstName}} Selecione uma opção",
+        "x": 150,
+        "y": 260,
+        "wires": [
+            [
+                "fd1ca61a.4d4398"
+            ]
+        ]
+    },
+    {
+        "id": "fd1ca61a.4d4398",
+        "type": "chatbot-telegram-send",
+        "z": "6cc0ede4.470174",
+        "bot": "f446afba.e7c6e",
+        "botProduction": "",
+        "track": true,
+        "passThrough": false,
+        "outputs": 1,
+        "x": 370,
+        "y": 260,
+        "wires": [
+            [
+                "d8d6eb9d.f27c28"
+            ]
+        ]
+    },
+    {
+        "id": "d8d6eb9d.f27c28",
+        "type": "switch",
+        "z": "6cc0ede4.470174",
+        "name": "Opção escolhida",
+        "property": "payload.content",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Localização",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Telefone",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Me cumprimente!",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "E-mail",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "QR Code",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 5,
+        "x": 610,
+        "y": 260,
+        "wires": [
+            [
+                "22ef0ebb.e6d252",
+                "9c7f8c90.fe142"
+            ],
+            [
+                "19753e35.d1c032"
+            ],
+            [
+                "63d6582.0fc88a8",
+                "7e94b71a.2e12f8"
+            ],
+            [
+                "58db148.3ac74ec"
+            ],
+            [
+                "9eb82005.00d5e",
+                "a0cde8d.d54b718"
+            ]
+        ]
+    },
+    {
+        "id": "22ef0ebb.e6d252",
+        "type": "chatbot-request",
+        "z": "6cc0ede4.470174",
+        "name": "Localização",
+        "message": "Qual a sua localização? ",
+        "requestType": "location",
+        "buttonLabel": "Qual a sua localização?",
+        "x": 890,
+        "y": 120,
+        "wires": [
+            [
+                "8d3f57a6.401818"
+            ]
+        ]
+    },
+    {
+        "id": "8d3f57a6.401818",
+        "type": "chatbot-telegram-send",
+        "z": "6cc0ede4.470174",
+        "bot": "f446afba.e7c6e",
+        "botProduction": "",
+        "track": true,
+        "passThrough": false,
+        "outputs": 1,
+        "x": 1210,
+        "y": 220,
+        "wires": [
+            [
+                "83b877f3.03d008"
+            ]
+        ]
+    },
+    {
+        "id": "19753e35.d1c032",
+        "type": "chatbot-request",
+        "z": "6cc0ede4.470174",
+        "name": "Telefone",
+        "message": "Qual seu número de telefone?",
+        "requestType": "phone-number",
+        "buttonLabel": "Qual seu número de telefone?",
+        "x": 900,
+        "y": 220,
+        "wires": [
+            [
+                "8d3f57a6.401818"
+            ]
+        ]
+    },
+    {
+        "id": "63d6582.0fc88a8",
+        "type": "chatbot-voice",
+        "z": "6cc0ede4.470174",
+        "name": "Text to Speak",
+        "message": "Olá. Sou o Bót Assistente do Hérmes... Tudo bem com voce?",
+        "language": "pt-br",
+        "x": 900,
+        "y": 300,
+        "wires": [
+            [
+                "8d3f57a6.401818"
+            ]
+        ]
+    },
+    {
+        "id": "9c7f8c90.fe142",
+        "type": "chatbot-waiting",
+        "z": "6cc0ede4.470174",
+        "waitingType": "find_location",
+        "x": 900,
+        "y": 80,
+        "wires": [
+            [
+                "8d3f57a6.401818"
+            ]
+        ]
+    },
+    {
+        "id": "7e94b71a.2e12f8",
+        "type": "chatbot-waiting",
+        "z": "6cc0ede4.470174",
+        "waitingType": "record_audio",
+        "x": 900,
+        "y": 340,
+        "wires": [
+            [
+                "8d3f57a6.401818"
+            ]
+        ]
+    },
+    {
+        "id": "a89a35c7.928128",
+        "type": "e-mail",
+        "z": "6cc0ede4.470174",
+        "server": "smtp.live.com",
+        "port": "587",
+        "secure": false,
+        "name": "",
+        "dname": "E-mail",
+        "x": 610,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "58db148.3ac74ec",
+        "type": "chatbot-message",
+        "z": "6cc0ede4.470174",
+        "name": "Incluir E-mail",
+        "message": [
+            {
+                "message": "{{firstName}} Informe seu E-Mail "
+            }
+        ],
+        "answer": true,
+        "track": false,
+        "x": 910,
+        "y": 400,
+        "wires": [
+            [
+                "8d3f57a6.401818"
+            ]
+        ]
+    },
+    {
+        "id": "62f80749.730db8",
+        "type": "function",
+        "z": "6cc0ede4.470174",
+        "name": "E-mail",
+        "func": "msg.to = msg.payload.content;\nmsg.payload = \"Mensagem de teste RedBot\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 370,
+        "y": 140,
+        "wires": [
+            [
+                "a89a35c7.928128"
+            ]
+        ]
+    },
+    {
+        "id": "4aa6d6c4.08f5d8",
+        "type": "switch",
+        "z": "6cc0ede4.470174",
+        "name": "",
+        "property": "payload.content",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "@",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 130,
+        "y": 200,
+        "wires": [
+            [
+                "62f80749.730db8"
+            ],
+            [
+                "afa0ab21.c67a48"
+            ]
+        ]
+    },
+    {
+        "id": "9eb82005.00d5e",
+        "type": "chatbot-qrcode",
+        "z": "6cc0ede4.470174",
+        "message": "https://web.whatsapp.com/",
+        "x": 900,
+        "y": 440,
+        "wires": [
+            [
+                "8d3f57a6.401818"
+            ]
+        ]
+    },
+    {
+        "id": "a0cde8d.d54b718",
+        "type": "chatbot-waiting",
+        "z": "6cc0ede4.470174",
+        "waitingType": "upload_photo",
+        "x": 900,
+        "y": 480,
+        "wires": [
+            [
+                "8d3f57a6.401818"
+            ]
+        ]
+    },
+    {
+        "id": "83b877f3.03d008",
+        "type": "chatbot-message",
+        "z": "6cc0ede4.470174",
+        "name": "Despedida",
+        "message": [
+            {
+                "message": "Obrigado pela conversa, volte sempre! {{smile:}}"
+            }
+        ],
+        "answer": false,
+        "track": false,
+        "x": 1230,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a3fe4592.29eb48",
+        "type": "inject",
+        "z": "c17ffd72.39663",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 80,
+        "y": 20,
+        "wires": [
+            [
+                "7ea539a1.d86968"
+            ]
+        ]
+    },
+    {
+        "id": "213431f8.54231e",
+        "type": "debug",
+        "z": "c17ffd72.39663",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 1010,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "bbd72a71.ba9838",
+        "type": "mongodb out",
+        "z": "c17ffd72.39663",
+        "service": "_ext_",
+        "mongodb": "4a118e00.739ab4",
+        "name": "",
+        "collection": "cargos",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "store",
+        "x": 1020,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "1bcdc003.c807b",
+        "type": "csv to json ext",
+        "z": "c17ffd72.39663",
+        "name": "",
+        "version": "0.1",
+        "source": "payload",
+        "delimiter": ",",
+        "quote": "\"",
+        "escape": "\"",
+        "ignoreEmpty": false,
+        "checkType": false,
+        "trim": false,
+        "noheader": false,
+        "includeColumns": "",
+        "headers": "",
+        "debug": false,
+        "x": 590,
+        "y": 140,
+        "wires": [
+            [
+                "7c97100d.b230a"
+            ]
+        ]
+    },
+    {
+        "id": "7c97100d.b230a",
+        "type": "function",
+        "z": "c17ffd72.39663",
+        "name": "",
+        "func": "\nvar newMsg = [];\n\nfor (i=0; i < msg.payload.length; i++){\n    \n    newMsg.push({payload : msg.payload[i]});\n\n    }\n\nreturn [newMsg]; \n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 810,
+        "y": 140,
+        "wires": [
+            [
+                "213431f8.54231e",
+                "bbd72a71.ba9838"
+            ]
+        ]
+    },
+    {
+        "id": "7ea539a1.d86968",
+        "type": "file in",
+        "z": "c17ffd72.39663",
+        "name": "",
+        "filename": "C:\\Users\\hvsantos\\Desktop\\doc_mongo\\Cargos_Detalhes.csv",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "x": 270,
+        "y": 140,
+        "wires": [
+            [
+                "1bcdc003.c807b"
+            ]
+        ]
+    },
+    {
+        "id": "67b6ee6c.dbd96",
+        "type": "http in",
+        "z": "88ba2402.978be8",
+        "name": "",
+        "url": "/consulta_edicao",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 140,
+        "y": 160,
+        "wires": [
+            [
+                "87170ec7.bc295",
+                "d10a2be5.57c118"
+            ]
+        ]
+    },
+    {
+        "id": "4428b1f6.222c3",
+        "type": "function",
+        "z": "88ba2402.978be8",
+        "name": "",
+        "func": "msg.topic = 'SELECT R.COD_EMPRESA, R.COD_FILIAL, R.COD_REQUISICAO, R.COD_CCUSTO, R.COD_UNIDADE_ADM, R.COD_ATIVIDADE, R.COD_LOCAL_TRAB, R.COD_CARGO, R.COD_EMPRESA_SOLICITANTE, R.COD_SINDICATO from requisicao_apresentacao as R';\n//msg.topic += 'where campo = ' + parametro;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 328,
+        "y": 53.99999809265137,
+        "wires": [
+            [
+                "35bcf742.0692e8"
+            ]
+        ]
+    },
+    {
+        "id": "d10a2be5.57c118",
+        "type": "debug",
+        "z": "88ba2402.978be8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 721.6000366210938,
+        "y": 158.99999809265137,
+        "wires": []
+    },
+    {
+        "id": "87170ec7.bc295",
+        "type": "function",
+        "z": "88ba2402.978be8",
+        "name": "",
+        "func": "msg.topic = `SELECT \n            A.COD_CARGO,\n            A.COD_FUNCAO,\n            A.COD_SINDICATO,\n            A.RT_JORNADA_MENSAL,\n            A.PERC_BENEFICIO_VARIAVEL,\n            A.REMUNERACAO_VARIAVEL,\n            A.SALARIO\n            \n from apr_remuneracao as A `;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 330,
+        "y": 160,
+        "wires": [
+            [
+                "35bcf742.0692e8"
+            ]
+        ]
+    },
+    {
+        "id": "8a27ba71.8e0d48",
+        "type": "http response",
+        "z": "88ba2402.978be8",
+        "name": "",
+        "statusCode": "",
+        "headers": {
+            "Access-Control-Allow-Origin": "*"
+        },
+        "x": 710,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "35bcf742.0692e8",
+        "type": "mysql",
+        "z": "88ba2402.978be8",
+        "mydb": "6619fcd6.ec83b4",
+        "name": "",
+        "x": 505.50000762939453,
+        "y": 161.00000190734863,
+        "wires": [
+            [
+                "d10a2be5.57c118",
+                "8a27ba71.8e0d48"
+            ]
+        ]
+    },
+    {
+        "id": "7eaef205.60355c",
+        "type": "http in",
+        "z": "84ef6f2d.2fd6d",
+        "name": "",
+        "url": "/consulta_req",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 110,
+        "y": 260,
+        "wires": [
+            [
+                "1569aefc.f80cf1"
+            ]
+        ]
+    },
+    {
+        "id": "d8c17e1f.a9737",
+        "type": "debug",
+        "z": "84ef6f2d.2fd6d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 830,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "b3ae5e2b.cf54",
+        "type": "mysql",
+        "z": "84ef6f2d.2fd6d",
+        "mydb": "a9aefdfc.1c2d6",
+        "name": "",
+        "x": 670,
+        "y": 260,
+        "wires": [
+            [
+                "800bc04e.18bc3"
+            ]
+        ]
+    },
+    {
+        "id": "1569aefc.f80cf1",
+        "type": "function",
+        "z": "84ef6f2d.2fd6d",
+        "name": "",
+        "func": "msg.topic = `SELECT \n\t\t\t\tR.COD_REQ,\n\t\t\t\tR.COD_MOT_REQ,\n\t\t\t\tR.DT_REQ,\n\t\t\t\tR.COD_SIT_REQ,\n\t\t\t\tR.COD_MOT_SIT_REQ,\n\t\t\t\tR.DT_SIT_REQ,\n\t\t\t\tR.COD_EMP_REQ,\n\t\t\t\tR.MAT_REQ,\n\t\t\t\tR.COD_VAGA,\n\t\t\t\tR.POS_ESTR_ORG,\n\t\t\t\tR.EXP_NEC,\n\t\t\t\tR.REL_FUNC,\n\t\t\t\tR.FAT_INS,\n\t\t\t\tR.PERS_DES,\n\t\t\t\tR.COD_EMPRESA,\n\t\t\t\tR.COD_CARGO,\n\t\t\t\tR.COD_FILIAL,\n\t\t\t\tR.ANOS_SERVICO,\n\t\t\t\tR.MESES_SERVICO,\n\t\t\t\tR.SALARIO_MAX,\n\t\t\t\tR.PONTOS_AVAL,\n\t\t\t\tR.DISCIPLINA,\n\t\t\t\tR.SEXO,\n\t\t\t\tR.ESTADO_CIVIL,\n\t\t\t\tR.IDADE_MAX,\n\t\t\t\tR.IDADE_MIN,\n\t\t\t\tR.USUARIO,\n\t\t\t\tR.DT_ATUALIZACAO,\n\t\t\t\tR.COD_INSTRUCAO,\n\t\t\t\tR.MAT_SUBS,\n\t\t\t\tR.MOT_SUBS,\n\t\t\t\tR.PAR_JUST,\n\t\t\t\tR.PAR_RH,\n\t\t\t\tR.PAR_ORC,\n\t\t\t\tR.EMP_CAND_APROVADO,\n\t\t\t\tR.COD_CAND_APROVADO,\n\t\t\t\tR.NOME_CAND_APROVADO,\n\t\t\t\tR.COD_CCUSTO,\n\t\t\t\tR.FLAG_TEMPORARIO,\n\t\t\t\tR.SALARIO,\n\t\t\t\tR.COD_HORARIO,\n\t\t\t\tR.COD_LOCAL_TRAB,\n\t\t\t\tR.VINCULO,\n\t\t\t\tR.COD_UNIDADE_ADM,\n\t\t\t\tR.COD_UN_NEGOCIO,\n\t\t\t\tR.COD_CCUSTO_CONTAB,\n\t\t\t\tR.FLG_AUTONOMO,\n\t\t\t\tR.OBSERVACAO,\n\t\t\t\tR.REMUNERACAO_VARIAVEL,\n\t\t\t\tR.CANDIDATO_INDICADO,\n\t\t\t\tR.VAGA_FATURAVEL,\n\t\t\t\tR.VALOR_FATURAVEL,\n\t\t\t\tR.VAGA_CONFIDENCIAL,\n\t\t\t\tR.IND_DEF_FIS,\n\t\t\t\tR.RAIS_IND_DEF_FISICO,\n\t\t\t\tR.RAIS_IND_DEF_AUDITIVA,\n\t\t\t\tR.RAIS_IND_DEF_VISUAL,\n\t\t\t\tR.RAIS_IND_DEF_MENTAL,\n\t\t\t\tR.RAIS_IND_DEF_MULTIPLA,\n\t\t\t\tR.PERC_BENEFICIO_VARIAVEL,\n\t\t\t\tR.COD_SINDICATO,\n\t\t\t\tR.COD_ATIVIDADE,\n\t\t\t\tR.QTDE_PESSOAS,\n\t\t\t\tR.IND_INSALUB,\n\t\t\t\tR.IND_PERIC,\n\t\t\t\tR.TIPO_SALARIO,\n\t\t\t\tR.TP_REGISTRO_PONTO,\n\t\t\t\tR.MARCA_PONTO,\n\t\t\t\tR.REFEITORIO,\n\t\t\t\tR.RT_JORNADA_MENSAL,\n\t\t\t\tDATE_FORMAT(R.DATA_INICIO, \"%Y-%m-%d\") as DATA_INICIO,\n\t\t\t\tDATE_FORMAT(R.DATA_FIM, \"%Y-%m-%d\") as DATA_FIM,\n\t\t\t\tR.COD_CATEGORIA,\n\t\t\t\tR.COD_FUNCAO,\n\t\t\t\tDATE_FORMAT(R.DT_PREVISAO_ADMISSAO, \"%Y-%m-%d\") as DT_PREVISAO_ADMISSAO,\n\t\t\t\tR.EMP_GESTOR_IND,\n\t\t\t\tR.MAT_GESTOR_IND,\n\t\t\t\tR.EMP_AVALIADOR_IND,\n\t\t\t\tR.MAT_AVALIADOR_IND,\n\t\t\t\tR.DT_PREV_FIM_CONTRATO,\n\t\t\t\tR.TIPO_CONTRATO,\n\t\t\t\tDATE_FORMAT(R.DT_ULTIMA_AVALIACAO, \"%Y-%m-%d\") as DT_ULTIMA_AVALIACAO,\n\t\t\t\tR.VALOR_VENDA\n from requisicao_apresentacao as R `;\nmsg.topic += 'where COD_REQ  =  ' + msg.payload.codRequisicao;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 348.5,
+        "y": 259.99999809265137,
+        "wires": [
+            [
+                "b3ae5e2b.cf54"
+            ]
+        ]
+    },
+    {
+        "id": "800bc04e.18bc3",
+        "type": "http response",
+        "z": "84ef6f2d.2fd6d",
+        "name": "",
+        "statusCode": "",
+        "headers": {
+            "Access-Control-Allow-Origin": "*"
+        },
+        "x": 874.0000114440918,
+        "y": 258.00000381469727,
+        "wires": []
+    },
+    {
+        "id": "c6ab0ca7.cba5f",
+        "type": "http in",
+        "z": "84ef6f2d.2fd6d",
+        "name": "",
+        "url": "/aprovacao_ins",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 100,
+        "y": 340,
+        "wires": [
+            [
+                "95b59bba.a17458"
+            ]
+        ]
+    },
+    {
+        "id": "8e052791.bd8b08",
+        "type": "function",
+        "z": "84ef6f2d.2fd6d",
+        "name": "Insert",
+        "func": "data = JSON.parse(msg.payload);\n//msg.payload = JSON.parse(msg.payload);\n\nif(data.grupoUsuario == \"remuneracao\"){\n    msg.topic = `INSERT RS.APR_REMUNERACAO(\n                COD_CARGO,  \n                COD_FUNCAO,\n                COD_SINDICATO,\n                VALOR_REMUNERACAO,\n                PERC_BENEFICIO,\n                VALOR_BENEFICIO,\n                SALARIO,\n                COD_HORARIO_JORNADA,\n                GRAU_INSTRUCAO,\n                PARECER_RH,\n                JUSTIFICATIVA,\n                PARECER,\n                USUARIO_APROVADOR,\n                DATA_APROVACAO,\n                COD_REQUISICAO_NATCORP,\n                COD_REQ_VAGA,\n                STATUS_REQ\n                )VALUES\n            (` + msg.query + ')'\n}else if(data.grupoUsuario == \"controladoria\"){\n        msg.topic = `INSERT RS.APR_REMUNERACAO(\n                COD_CARGO,  \n                COD_FUNCAO,\n                COD_SINDICATO,\n                VALOR_REMUNERACAO,\n                PERC_BENEFICIO,\n                VALOR_BENEFICIO,\n                SALARIO,\n                COD_HORARIO_JORNADA,\n                GRAU_INSTRUCAO,\n                PARECER_RH,\n                JUSTIFICATIVA,\n                PARECER,\n                USUARIO_APROVADOR,\n                DATA_APROVACAO,\n                COD_REQUISICAO_NATCORP,\n                COD_REQ_VAGA,\n                STATUS_REQ\n                )VALUES\n            (` + msg.query + ')'\n}\n\nlet msgEmail ={ payload:{\n    cod_req: \"12344\",\n    nomeArea:\"Controladoria\",\n    nomeAnalista:\"Calango Jr.\",\n    dt_fechamento:\"13/02/2019\",\n    nomeFuncionario: \"calango\",\n    emailTo: \"hvsantos@stefanini.com\",\n    emailCC: \"\",\n}}\nreturn [msg, msgEmail];",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 549,
+        "y": 317.99999809265137,
+        "wires": [
+            [
+                "b3ae5e2b.cf54",
+                "d8c17e1f.a9737"
+            ],
+            [
+                "f36bebd1.c34818",
+                "376cfea4.2e0e32"
+            ]
+        ]
+    },
+    {
+        "id": "95b59bba.a17458",
+        "type": "function",
+        "z": "84ef6f2d.2fd6d",
+        "name": "Tratamento para o insert",
+        "func": "data = JSON.parse(msg.payload);\n\n//COD_CARGO\nmsg.query = (data.vagaCargo ? data.vagaCargo : 'FALSE') + \", \";\n//COD_FUNCAO\nmsg.query += (data.vagaFuncao ? data.vagaFuncao : 'FALSE') + \", \";\n//COD_SINDICATO\nmsg.query += (data.vagaSindicato ? data.vagaSindicato : 'FALSE') +  \", \";\n//VALOR_REMUNERACAO\nmsg.query += (data.vagaRemuneracao ? data.vagaRemuneracao : 'FALSE') + \", \"\n//PERC_BENEFICIO\nmsg.query += (data.VagaBeneficio ? data.VagaBeneficio : 'FALSE') + \", \"\n//VALOR_BENEFICIO\nmsg.query += (data.VagaValorB ?  data.VagaValorB : 'FALSE') + \", \"\n//SALARIO\nmsg.query += (data.VagaSalario1 ? data.VagaSalario1 : 'FALSE') + \", \"\n//COD_HORARIO_JORNADA\nmsg.query += (data.vagaCargaHoraria ? data.vagaCargaHoraria : 'FALSE') + \", \";\n//GRAU_INSTRUCAO\nmsg.query += (data.VagaGrau ? data.VagaGrau : 'FALSE') + \", \";\n//PARECER_RH\nmsg.query += (data.parecerRH ? data.parecerRH : 'NULL') + \", \"\n//JUSTIFICATIVA\nmsg.query += (data.justificativa ? data.justificativa : 'NULL') + \", \";\n//PARECER\nmsg.query += (data.parecerOrcamento ? \"'\" + data.parecerOrcamento + \"'\" : \"NULL\") + \", \";\n//USUARIO_APROVADOR\nmsg.query += \"'YagoGroselha'\" + \",\" ;\n//DATA_APROVACAO\nmsg.query += 'NOW(), ';\n//COD_REQUISICAO_NATCORP\nmsg.query += \"999\" + \", \";\n//COD_REQ_VAGA\nmsg.query += data.codReq + \", \";\n//STATUS\nmsg.query += (\"'\" +data.status+ \"'\")\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 370,
+        "y": 320,
+        "wires": [
+            [
+                "8e052791.bd8b08"
+            ]
+        ]
+    },
+    {
+        "id": "f36bebd1.c34818",
+        "type": "http request",
+        "z": "84ef6f2d.2fd6d",
+        "name": "",
+        "method": "POST",
+        "ret": "txt",
+        "url": "localhost:3000/SendAnalistaResponsavel",
+        "tls": "",
+        "x": 670,
+        "y": 420,
+        "wires": [
+            [
+                "800bc04e.18bc3",
+                "376cfea4.2e0e32"
+            ]
+        ]
+    },
+    {
+        "id": "376cfea4.2e0e32",
+        "type": "debug",
+        "z": "84ef6f2d.2fd6d",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 910,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "7e7a4641.732c78",
+        "type": "inject",
+        "z": "84ef6f2d.2fd6d",
+        "name": "",
+        "topic": "",
+        "payload": "{\"nome\":\"calango\",\"email\":\"asdasd\",\"analistaResponsavel\":\"teste calango\"}",
+        "payloadType": "json",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 410,
+        "y": 500,
+        "wires": [
+            [
+                "f36bebd1.c34818"
+            ]
+        ]
+    }
+]
